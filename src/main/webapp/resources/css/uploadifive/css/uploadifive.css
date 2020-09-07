@@ -1,0 +1,72 @@
+/*
+UploadiFive
+Copyright (c) 2012 Reactive Apps, Ronnie Garcia
+*/
+#uploadifive-upload1,#uploadifive-upload2,#uploadifive-upload3,#uploadifive-upload4,#uploadifive-upload5,#uploadifive-upload6,
+#uploadifive-upload7,#uploadifive-upload8,#uploadifive-upload9,#uploadifive-upload10,#uploadifive-upload11,#uploadifive-upload12,
+#uploadifive-upload13,#uploadifive-upload14,#uploadifive-upload15,#uploadifive-upload16 {
+    margin-left: 96px;
+    margin-top: 6px;
+}
+
+#uploadifive-upload1-queue,#uploadifive-upload2-queue,#uploadifive-upload3-queue,#uploadifive-upload4-queue,#uploadifive-upload5-queue,
+#uploadifive-upload6-queue,#uploadifive-upload7-queue,#uploadifive-upload8-queue,#uploadifive-upload9-queue,#uploadifive-upload10-queue,
+#uploadifive-upload11-queue,#uploadifive-upload12-queue,#uploadifive-upload13-queue,#uploadifive-upload14-queue,#uploadifive-upload15-queue,
+#uploadifive-upload16-queue  {
+    margin: 6px;
+    padding: 2px;
+}
+
+
+.uploadifive-button {
+	background-color: #2FA4E7;
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 2px;
+	border: 2px solid #1A99E2;
+	color: #FFF;
+	font-size: 14px;
+	font-family: "PingFang SC","Microsoft YaHei";
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	text-transform: uppercase;
+	width: 100%;
+}
+.uploadifive-button:hover {
+	background-color: #1990D5;
+	background-position: center bottom;
+}
+.uploadifive-queue-item {
+	background-color: #F5F5F5;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-size: 14px;
+	font-family: "PingFang SC","Microsoft YaHei";
+	margin-top: 3px;
+	padding: 15px;
+    margin: 8px 10px;
+}
+.uploadifive-queue-item .close {
+	background: url('../img/uploadifive-cancel.png') 0 0 no-repeat;
+	display: block;
+	float: right;
+	height: 16px;
+	text-indent: -9999px;
+	width: 16px;
+}
+.uploadifive-queue-item .progress {
+	border: 1px solid #D0D0D0;
+	height: 10px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+.uploadifive-queue-item .progress-bar {
+	background-color: #2FA4E7;
+	height: 10px;
+	width: 0;
+}
